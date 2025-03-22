@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import './AccountSetting.css';
+import './Accountsetting.css';
 import profileImage from '../profile.jpg';
 
 function AccountSettings() {
