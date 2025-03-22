@@ -10,15 +10,13 @@ function Login() {
   const handleLogin = useCallback((e) => {
     e.preventDefault();
 
-    // Prepare user data to pass to the Account Settings page
     const userData = {
-      fullName: 'Marry Doe', // Fetch from API or state if needed
+      fullName: 'Marry Doe', 
       email,
-      companyName: 'PopX', // Fetch from API or state if needed
-      isAgency: 'No', // Fetch from API or state if needed
+      companyName: 'PopX',
+      isAgency: 'No',
     };
 
-    // Navigate to Account Settings and pass user data as state
     navigate('/account-settings', { state: userData });
   }, [email, navigate]);
 
