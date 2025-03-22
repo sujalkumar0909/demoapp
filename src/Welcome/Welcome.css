@@ -1,0 +1,46 @@
+.welcome-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.welcome-container p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  color: #666;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.create-account-btn, .login-btn {
+  padding: 15px 30px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.create-account-btn {
+  background-color: #4c63af;
+  color: white;
+}
+
+.login-btn {
+  background-color: #f1f1f1;
+  color: #333;
+}

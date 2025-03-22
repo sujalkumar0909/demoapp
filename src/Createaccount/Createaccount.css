@@ -1,0 +1,46 @@
+.create-account-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-account-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #9506c8;
+}
+
+.input-group input, .input-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.create-account-btn {
+  padding: 15px 30px;
+  font-size: 1em;
+  background-color: #6A0dad;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
